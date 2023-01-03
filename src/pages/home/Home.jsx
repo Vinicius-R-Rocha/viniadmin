@@ -37,7 +37,7 @@ export default function Home() {
       <Chart data={userData} title="Saldo do fim do mês" grid dataKey="Saldo"/>
       <div className="junction">
       <GraphPie data={graph} title = "Resumo"/>
-      <Areachart data = {area} colors = {areaColors} title = "Relatório Semanal"/>
+      <Areachart data = {area} colors = {areaColors} title = "Relatorio Semanal"/>
       </div>
       <div className="homeWidgets">
         <WidgetSm data={users} />
